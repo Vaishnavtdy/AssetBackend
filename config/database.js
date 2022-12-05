@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
       settings: {
         client: "postgres",
         host: env("DATABASE_HOST", "localhost"),
-        port: env.int("DATABASE_PORT", 5432),
+        port: env.int("DATABASE_PORT", 5431),
         database: env("DATABASE_NAME", "assetdb"),
         username: env("DATABASE_USERNAME", "postgres"),
         password: env("DATABASE_PASSWORD", "Admin123"),
